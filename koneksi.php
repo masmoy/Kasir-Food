@@ -1,8 +1,8 @@
 <?php
-$host = 'sql211.infinityfree.com';
-$user = 'if0_39547231';
-$pass = 'dermagaadmin';
-$db   = 'if0_39547231_kasir';
+$host = 'hostanda';
+$user = 'user';
+$pass = 'pass';
+$db   = 'namadb';
 
 $koneksi = mysqli_connect($host, $user, $pass, $db);
 if (!$koneksi) {
